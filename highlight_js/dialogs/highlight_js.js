@@ -73,7 +73,7 @@ CKEDITOR.dialog.add( 'highlight_js', function( editor ) {
                         'default': 'Auto',
                         onChange: function( api ) {
                         // this = CKEDITOR.ui.dialog.select
-                         alert( 'Current value: ' + this.getValue() );
+                         //alert( 'Current value: ' + this.getValue() );
                         }
                     },
                     {
