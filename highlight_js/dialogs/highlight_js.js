@@ -59,7 +59,12 @@ CKEDITOR.dialog.add( 'highlight_js', function( editor ) {
 
             var pre = editor.document.createElement( 'pre' );
             var code = editor.document.createElement( 'code' );
-            code.setAttribute( 'class', dialog.getValueOf( 'tab-basic', 'code_lan' ) );
+            var code_class = dialog.getValueOf( 'tab-basic', 'code_lan' ).toLowerCase();
+
+            if(code_class !== "auto"){
+                code.setAttribute( 'class', code_class );
+            }
+
             code.setText( dialog.getValueOf( 'tab-basic', 'pre_code' ) );
 
             pre.append(code);
