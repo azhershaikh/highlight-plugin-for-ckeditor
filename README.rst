@@ -1,4 +1,4 @@
 Higlight.js ckeditor plugin
 ===========================
 
-Added dialog with language select and textarea for code and insrted <pre><code> tags with choosing class
+Adding dialog with language select and textarea for code and inserting <pre><code> tags with choosing class in editor
