@@ -14,6 +14,7 @@ CKEDITOR.dialog.add( 'highlight_js', function( editor ) {
                         label: 'Select code language',
                         items: [
                                 [ 'Auto' ],
+                                [ 'no-highlight' ],
                                 [ 'Bash' ],
                                 [ 'Diff' ],
                                 [ 'JSON' ],
