@@ -4,6 +4,10 @@ Simple plugin for ckeditor that can add tags <pre><code class="..."></code></pre
 
 This plugin on can use for the `highlight.js <http://softwaremaniacs.org/soft/highlight/en/>`_ project
 
+**Warning**
+----------- 
+this plugin does not include highlight.js file! You should download it from highlight project page. This plugin just create HTML code.
+
 Installation
 ~~~~~~~~~~~~
 #. Upload folder highlight_js to the ckeditor plugins directory.
